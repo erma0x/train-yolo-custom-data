@@ -1,15 +1,17 @@
-yolo  TRAINING CUSTOMIZZATO
+##  Train yolo neural networks on custom datasets
+Yolo neural network model for custom training
     
-    1 aggiungi le classi in piu su yolo.cfg 
-    2 crea le annotazioni img1.png e img1.txt con i box assegnati
-    	dividi dati nelle seguenti cartelle:
-    	 90% /data/images/training e 10% /dataimages/validation
+    1 add the extra classes to yolo.cfg
     
-    3 copia le annotazioni nei corrispettivi
-    	     /data/lables/training/ e /data/lables/validation/
+    2 creates the annotations img1.png and img1.txt with the assigned boxes
+     split data into the following folders:
+     90% /data/images/training and 10% /data/images/validation/
     
-    3 re train (ri allena yolo.weight) with train.py
-    4 test con nuove immagini
+    3 copies the annotations in the corresponding payments
+     /data/lables/training/ and /data/lables/validation/
+    
+    3 re train (re trains yolo.weight) with train.py
+    4 tests with new images
     
    
 ## Yolo format yolo.txt
