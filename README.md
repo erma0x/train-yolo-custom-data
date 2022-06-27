@@ -17,23 +17,27 @@ yolo  TRAINING CUSTOMIZZATO
 
 `4 0.494545 0.521858 0.770909 0.551913`
 
-4 is class_id
-0.521858 is the y-axis value
-0.770909 is the width of an object
-0.551913 is the height of an object.
+- 4 is class_id
+- 0.521858 is the y-axis value
+- 0.770909 is the width of an object
+- 0.551913 is the height of an object.
 
 
 ## Project folder structure
+
 Main Folder
---- data
-    --- dataset name
-        --- images
-            --- img1.jpg
-            --- img2.jpg
-            ..........
-        --- labels
-            --- img1.txt
-            --- img2.txt
-            ..........
-        --- train.txt
-        --- val.txt
+
+    --- data/
+        --- dataset_name/
+            --- images/
+                --- img1.jpg
+                --- img2.jpg
+                ..........
+
+            --- labels/
+                --- img1.txt
+                --- img2.txt
+                ..........
+
+            --- train.txt
+            --- val.txt
